@@ -2,19 +2,26 @@
     margin: 0;
 }
 
-*{margin: 0;}
+*{
+    margin: 0;
+}
 
 
 .main-container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .inner-container{
- 
     display: flex;
     flex-direction: column;
     justify-content: center;
+    max-width: 600px;
+}
+
+.image-container>img{
+    width: 100%;
 }
 
 .headding>h2{
@@ -50,7 +57,6 @@
 
 .para-text{
     display: flex;
-    width: 540px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #58595b;
@@ -75,6 +81,8 @@
     justify-content: end;
     text-align: center;
 }
+
+
 
 .leasnow-button{
     display: flex;
@@ -165,12 +173,12 @@ table{
 .footer-container, .footer-text, .social-icon{
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
     background-color:#ececec;
 }
 
 .footer-container{
-    padding: 0px 25px 20px 25px;
+    padding: 5px 25px 10px 25px;
 }
 
 .google-apple-store-container,.apple-google-img{
@@ -202,3 +210,131 @@ table{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 12px;
   }
+
+
+  /* responsive media design starts  */
+
+
+  @media only screen and (max-width: 480px) {
+    .inner-container{ 
+      width: 390px;
+  }
+}
+
+  @media only screen and (max-width: 480px) {
+    .headding>h2{ 
+      font-size:20px ;
+  }
+}
+
+  @media only screen and (max-width: 480px) {
+    .second-headding { 
+      font-size:15px ;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+    .second-headding { 
+      font-size:13px ;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .para-text { 
+      font-size:13px ;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .para-icon-container { 
+      padding: 20px 22px 10px 22px;
+  }
+}
+
+  @media only screen and (max-width: 600px) {
+    .property-image-container>img { 
+      width: 160px;
+  }
+}
+
+  @media only screen and (max-width: 480px) {
+    .property-image-container>img { 
+      width: 110px;
+  }
+}
+
+  
+  @media only screen and (max-width: 320px) {
+    .property-image-container>img { 
+      width: 90px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .service-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .image-icons{ 
+      font-size: 8.3px;
+  }
+}
+
+  @media only screen and (max-width: 320px) {
+    .image-icons{ 
+      font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+    .image-icons{ 
+      font-size: 7px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    td,  tr { 
+      font-size: 14px;
+      padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .location-image>img { 
+      width: 100px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .location-container { 
+      font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    #img-tour { 
+    padding-left: 10px;
+     
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .footer-text{ 
+    font-size: 7px;
+     
+  }
+}
+
+@media only screen and (max-width: 480px) {
+    .social-icon{ 
+    width: 70px;
+     
+  }
+}
+
+
