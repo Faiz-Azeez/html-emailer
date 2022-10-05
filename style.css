@@ -11,7 +11,7 @@
 }
 
 .inner-container{
-    width: 600px;
+ 
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,6 +49,8 @@
 }
 
 .para-text{
+    display: flex;
+    width: 540px;
     font-size: 16px;
     font-family: Arial, Helvetica, sans-serif;
     color: #58595b;
